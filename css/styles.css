@@ -1,0 +1,74 @@
+/** Header **/
+#header-nav {
+  background-color: #939597;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar-brand h1 {
+  margin-top: 5px;
+  color: black;
+  float: left;
+}
+
+#collapsable-nav #nav-list{
+  background: #E7E7E7;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#nav-list a:hover {
+  background: #939597;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+/** Boxes **/
+
+.menu-item-box {
+  border: 2px solid black;
+  background-color: #939597;
+  padding: 10px 5px 5px 5px;
+  margin: 0 0 10px 0;
+}
+
+h3.menu-item-title{
+  margin: 0 0 10px 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.menu-item-details {
+  font-size: .9em;
+  text-align: justify;
+  font-weight: bold;
+  overflow: auto;
+  height: 150px;
+  position: relative;
+}
+
+.row {
+  float: left;
+  padding:10px 20px 10px 20px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Boxes */
+.menu-item-details {
+  height: initial;
+}
